@@ -24,6 +24,7 @@ jobs:
       - run: node build.js
         env:
           SITE_URL: ${{ vars.SITE_URL }}
+      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -1,0 +1,72 @@
+{
+  "slug": "ahmad-fauzi",
+  "name": "Ahmad Fauzi",
+  "title": "Full Stack Developer",
+  "photo": "https://i.pravatar.cc/300?img=12",
+  "yearsExperience": "3+",
+  "yearsLabel": "Tahun Pengalaman",
+  "contact": {
+    "phone": "0813-2345-6789",
+    "email": "ahmad.fauzi@email.com",
+    "location": "Yogyakarta, Indonesia"
+  },
+  "summary": "Full stack developer dengan 3 tahun pengalaman membangun aplikasi web dari ujung ke ujung. Terbiasa kerja di startup dengan tim kecil, dari desain database sampai deploy ke production.",
+  "experience": [
+    {
+      "company": "Digital Kreatif Studio",
+      "period": "2023 — Sekarang",
+      "role": "Full Stack Developer",
+      "location": "Yogyakarta · Remote",
+      "color": "#00d4ff",
+      "bullets": [
+        "Membangun dan maintain 3 aplikasi web untuk klien enterprise",
+        "Migrasi backend dari PHP ke Node.js, meningkatkan performa API 40%",
+        "Mentoring 2 junior developer dalam best practice coding"
+      ]
+    },
+    {
+      "company": "Startup Logistik ABC",
+      "period": "2021 — 2023",
+      "role": "Backend Developer",
+      "location": "Jakarta",
+      "color": "#7c3aed",
+      "bullets": [
+        "Mengembangkan sistem tracking pengiriman real-time",
+        "Optimasi query database yang mengurangi response time 60%"
+      ]
+    }
+  ],
+  "competencies": [
+    { "name": "JavaScript", "color": "blue" },
+    { "name": "Node.js", "color": "blue" },
+    { "name": "React", "color": "purple" },
+    { "name": "PostgreSQL", "color": "purple" },
+    { "name": "Docker", "color": "green" },
+    { "name": "Bahasa Inggris", "color": "amber" }
+  ],
+  "education": [
+    {
+      "degree": "S1 — Teknik Informatika",
+      "field": "Universitas Gadjah Mada",
+      "school": "",
+      "icon": "🎓"
+    }
+  ],
+  "skills": [
+    { "name": "JavaScript / TypeScript", "level": "Expert", "percent": 90 },
+    { "name": "React", "level": "Advanced", "percent": 85 },
+    { "name": "Node.js", "level": "Advanced", "percent": 85 },
+    { "name": "PostgreSQL", "level": "Intermediate", "percent": 70 },
+    { "name": "Docker", "level": "Intermediate", "percent": 65 }
+  ],
+  "certifications": [
+    { "name": "AWS Certified Developer", "issuer": "Amazon Web Services", "icon": "🔵" },
+    { "name": "JavaScript Algorithms", "issuer": "freeCodeCamp", "icon": "🟢" }
+  ],
+  "softSkills": ["Problem Solving", "Kerja Tim", "Komunikasi", "Manajemen Waktu", "Adaptif", "Bahasa Inggris"],
+  "linkedin": "https://linkedin.com/in/ahmadfauzi",
+  "github": "https://github.com/ahmadfauzi",
+  "website": "",
+  "status": "Terbuka untuk Peluang Baru"
+  
+}
