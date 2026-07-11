@@ -1,0 +1,71 @@
+{
+  "slug": "fany-nuraini",
+  "name": "fany nuraini",
+  "title": "Admin",
+  "photo": "https://drive.google.com/uc?export=view&id=1hPMxDQoEuaOr0uxfqNYyM90X_oxUATT4",
+  "yearsExperience": "5+",
+  "yearsLabel": "Tahun Pengalaman",
+  "contact": {
+    "phone": "085334665123",
+    "email": "fany@gmail.com",
+    "location": "jakarta timur"
+  },
+  "summary": "berpengalaman dalam bidang administrasi penggajian",
+  "experience": [
+    {
+      "company": "PT mayora indonesia",
+      "role": "Admin",
+      "period": "2020 - 2025",
+      "location": "Jakarta",
+      "color": "#00d4ff",
+      "bullets": [
+        "Teliti dan cepat bersosialisasi"
+      ]
+    }
+  ],
+  "competencies": [
+    {
+      "name": "Microsoft Office",
+      "color": "blue"
+    },
+    {
+      "name": "SAP",
+      "color": "purple"
+    },
+    {
+      "name": "Data Entry",
+      "color": "green"
+    }
+  ],
+  "education": [
+    {
+      "degree": "S1 - Manajemen Administrasi",
+      "field": "",
+      "school": "",
+      "icon": "🎓"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Microsoft Office",
+      "level": "Expert",
+      "percent": 98
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Microsoft",
+      "issuer": "",
+      "icon": "🔵"
+    }
+  ],
+  "softSkills": [
+    "Teliti",
+    "Responsif",
+    "Komunikatif"
+  ],
+  "linkedin": "https://linkedin.com/in/Fani nuraini",
+  "github": "tidak ada",
+  "website": "belum ada",
+  "status": "Terbuka untuk Peluang Baru"
+}
