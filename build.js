@@ -140,9 +140,23 @@ function renderFooterLinks(d) {
   return links.join('');
 }
 
+// Foto bisa berupa URL eksternal penuh (https://...) atau nama file lokal yang
+// sudah di-download & disimpan di assets/photos/ (hasil dari import-from-sheet.js).
+// Kalau lokal, path-nya perlu di-resolve beda buat <img> di halaman vs meta og:image.
+function resolvePhoto(d) {
+  if (!d.photo) return { imgSrc: '', ogImage: `${SITE_URL}/assets/og-default.jpg` };
+  if (/^https?:\/\//i.test(d.photo)) {
+    return { imgSrc: d.photo, ogImage: d.photo };
+  }
+  return {
+    imgSrc: `../assets/photos/${d.photo}`,
+    ogImage: `${SITE_URL}/assets/photos/${d.photo}`,
+  };
+}
+
 function renderPage(d) {
   const pageUrl = `${SITE_URL}/${d.slug}/`;
-  const ogImage = d.photo || `${SITE_URL}/assets/og-default.jpg`;
+  const { imgSrc, ogImage } = resolvePhoto(d);
   const contact = d.contact || {};
 
   return `<!DOCTYPE html>
@@ -172,7 +186,7 @@ function renderPage(d) {
     <div class="hero-grid">
       ${d.photo ? `
       <div class="photo-wrap">
-        <div class="photo-frame"><img src="${esc(d.photo)}" alt="${esc(d.name)}"></div>
+        <div class="photo-frame"><img src="${esc(imgSrc)}" alt="${esc(d.name)}"></div>
       </div>` : '<div></div>'}
       <div>
         <div class="label-tag">// portofolio</div>
