@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-service",
+  "version": "1.0.0",
+  "description": "Generator link portofolio untuk banyak customer dari 1 template",
+  "scripts": {
+    "build": "node build.js",
+    "import": "node scripts/import-from-sheet.js",
+    "import:linkedin": "node scripts/import-from-linkedin.js"
+  },
+  "license": "MIT"
+}

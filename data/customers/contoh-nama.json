@@ -1,0 +1,65 @@
+{
+  "slug": "contoh-nama",
+  "name": "Nadia Putri",
+  "title": "Senior Product Designer & UX Strategist",
+  "photo": "https://i.pravatar.cc/300?img=47",
+  "yearsExperience": "5+",
+  "yearsLabel": "Tahun Pengalaman",
+  "contact": {
+    "phone": "0812-3456-7890",
+    "email": "nadia@email.com",
+    "location": "Bandung, Jawa Barat"
+  },
+  "summary": "Product designer dengan 5 tahun pengalaman merancang produk digital untuk startup fintech dan e-commerce. Fokus pada riset user dan desain sistem yang scalable, dengan track record meningkatkan konversi dan retensi lewat desain berbasis data.",
+  "experience": [
+    {
+      "company": "Fintech Nusantara",
+      "period": "2023 — Sekarang",
+      "role": "Senior Product Designer",
+      "location": "Jakarta, Indonesia · Remote",
+      "color": "#00d4ff",
+      "bullets": [
+        "Memimpin desain fitur pembayaran yang dipakai 2 juta user aktif",
+        "Membangun design system yang dipakai 4 tim produk",
+        "Melakukan riset user rutin untuk validasi fitur baru"
+      ]
+    },
+    {
+      "company": "Toko Online ABC",
+      "period": "2021 — 2023",
+      "role": "Product Designer",
+      "location": "Bandung, Indonesia",
+      "color": "#7c3aed",
+      "bullets": [
+        "Merancang ulang flow checkout, meningkatkan konversi 18%",
+        "Berkolaborasi dengan tim engineering untuk implementasi desain"
+      ]
+    }
+  ],
+  "competencies": [
+    { "name": "Figma", "color": "blue" },
+    { "name": "UX Research", "color": "blue" },
+    { "name": "Design System", "color": "purple" },
+    { "name": "Prototyping", "color": "purple" },
+    { "name": "User Testing", "color": "green" },
+    { "name": "Public Speaking", "color": "amber" }
+  ],
+  "education": [
+    { "degree": "S1 — Desain Komunikasi Visual", "field": "Institut Teknologi Bandung", "icon": "\ud83c\udf93" }
+  ],
+  "skills": [
+    { "name": "UI/UX Design", "level": "Expert", "percent": 95 },
+    { "name": "User Research", "level": "Advanced", "percent": 85 },
+    { "name": "Design Systems", "level": "Advanced", "percent": 80 },
+    { "name": "Prototyping", "level": "Expert", "percent": 90 }
+  ],
+  "certifications": [
+    { "name": "Google UX Design", "issuer": "Coursera", "icon": "\ud83d\udd35" },
+    { "name": "Design Sprint Master", "issuer": "AJ&Smart", "icon": "\ud83d\udfe3" }
+  ],
+  "softSkills": ["Leadership", "Komunikasi", "Problem Solving", "Kolaborasi Tim", "Manajemen Waktu", "Bahasa Inggris"],
+  "linkedin": "https://linkedin.com/in/nadiaputri",
+  "github": "https://github.com/nadiaputri",
+  "website": "https://nadiaputri.com",
+  "status": "Terbuka untuk Peluang Baru"
+}
